@@ -83,4 +83,7 @@ The function g shall return the following structure:
   z:0
 }
 ```
+## 3. The Fizz With The Buzz
+
+If a number is divisible by three, [write a function which] will type out “fizz”. [When] divisible by five, it will type out “buzz”. If divisible by both, it will type out “fizz buzz." If not divisible by either, it will type out the number.
 
