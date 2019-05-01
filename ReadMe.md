@@ -6,9 +6,9 @@ Create the objects that you feel would best model a jungle using your best OO de
 2. All animals can do three things, make a sound, eat food, and sleep.
 3. Each species of animal knows how many others of its kind exist.
 4. By default when an animal’s energy level changes, it changes in the following ways:
-     a. -3 for making a sound
-     b. +5 for eating food
-     c. +10 for sleeping
+   1. -3 for making a sound
+   2. +5 for eating food
+   3. +10 for sleeping
 5. The jungle can perform a sound off. This involves all of the animals in the jungle each making their sound, along with reporting their energy level.
 6. Tigers get +5 energy for sleeping.
 7. Monkeys get +2 energy for eating and -4 energy for making a sound.
