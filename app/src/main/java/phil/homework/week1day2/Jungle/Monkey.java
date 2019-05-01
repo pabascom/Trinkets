@@ -14,7 +14,7 @@ public class Monkey extends Animal {
     }
 
     @Override public void makeSound() {
-        System.out.println("Ooo Ooo Ahh Ahh");
+        System.out.println("Ooo Ooo Ahh Ahh!");
         this.energy -= 4;
     }
 
@@ -24,6 +24,15 @@ public class Monkey extends Animal {
             this.energy -= 8;
         } else {
             System.out.println("Monkey is too tired.");
+        }
+    }
+
+    @Override public void doSomething() {
+        switch(rng.nextInt(4)) {
+            case 0 : makeSound();
+            case 1 : eatFood(Food.getRandomFood());
+            case 2 : sleep();
+            default : play();
         }
     }
 }

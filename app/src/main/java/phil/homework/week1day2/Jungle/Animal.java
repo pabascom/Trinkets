@@ -1,7 +1,10 @@
 package phil.homework.week1day2.Jungle;
 
+import java.util.Random;
+
 public class Animal {
     protected int energy;
+    protected static Random rng = new Random();
 
     public Animal(int energy) {
         this.energy = energy;
@@ -25,5 +28,13 @@ public class Animal {
     public void soundOff() {
         makeSound();
         System.out.println("I have " + energy + " energy.");
+    }
+
+    public void doSomething() {
+        switch(rng.nextInt(3)) {
+            case 0 : makeSound();
+            case 1 : eatFood(Food.getRandomFood());
+            default : sleep();
+        }
     }
 }
