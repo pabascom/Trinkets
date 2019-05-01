@@ -31,9 +31,9 @@ The encoding algorithm replaces every character in the string with the letter th
 Non-alphabet characters are ignored.
 
 Here are three examples:
-[a] Letter “a" is replaced by letter “z” (because “a” is the first letter of alphabet and “z” is the first letter when counted from the end of the alphabet list.)
-[b] Letter “c” is replaced by letter “x” (because “c” is the third letter of alphabet and “x” is the third letter of alphabet when counted backwards from letter “z".)
-[c] Letter “p” is replaced by letter “k” (because “p” is the 16th letter of alphabet and “k” is the 16th letter when counted backwards from letter “z".)
+1. Letter “a" is replaced by letter “z” (because “a” is the first letter of alphabet and “z” is the first letter when counted from the end of the alphabet list.)
+2. Letter “c” is replaced by letter “x” (because “c” is the third letter of alphabet and “x” is the third letter of alphabet when counted backwards from letter “z".)
+3. Letter “p” is replaced by letter “k” (because “p” is the 16th letter of alphabet and “k” is the 16th letter when counted backwards from letter “z".)
  
 Therefore, when string “acp” is encoded, the return value is string “zxk”.
 
