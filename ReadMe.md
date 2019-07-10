@@ -1,4 +1,4 @@
-# Week 1 Day 2
+# Challenges
 ## 1. The Jungle Problem
  
 Create the objects that you feel would best model a jungle using your best OO design and coding practices based on the following requirements.
